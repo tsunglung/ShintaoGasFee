@@ -1,0 +1,48 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "ShinTao Gas Fee is already configured"
+        },
+        "error": {
+            "connection_error": "Can't connect to ShinTao Gas Fee."
+        },
+        "flow_title": "ShinTao Gas Fee: {name}",
+        "step": {
+            "user": {
+                "data": {
+                    "gasid": "Gas ID (Without dash)",
+                    "eventvalidatioin": "EventValidatioin",
+                    "viewstate": "Viewstate Token",
+                    "viewstategenerator": "Viewstate Generator Token",
+                    "viewstate4upload": "Viewstate Token for Upload"
+                },
+                "description": "Please enter connection settings of your ShinTao Gas Fee."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "ShinTao Gas Fee (Without dash)",
+                "data": {
+                    "gasid": "Gas ID",
+                    "eventvalidatioin": "EventValidatioin",
+                    "viewstate": "Viewstate Token",
+                    "viewstategenerator": "Viewstate Generator Token",
+                    "viewstate4upload": "Viewstate Token for Upload"
+                }
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "billing_month": "Billing month",
+            "current_gasmeter": "Current Gas Meter",
+            "gas_payment": "Payment",
+            "gas_consumption": "Power consumption",
+            "extra_gas": "Extra Gas",
+            "billing_amount": "Billing amount",
+            "https_result": "Https result"
+        }
+    }
+}
